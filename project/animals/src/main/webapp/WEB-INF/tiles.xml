@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+	
+	<definition name="root.*" template="/WEB-INF/view/inc/layout.jsp">
+		<put-attribute name="css" value="" />
+		<put-attribute name="header" value="/WEB-INF/view/inc/header.jsp" />
+		<put-attribute name="main" value="/WEB-INF/view/{1}.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/view/inc/footer.jsp" />
+	</definition>
+	
+	<definition name="notice.*" template="/WEB-INF/view/notice/inc/layout.jsp">
+		<put-attribute name="header" value="/WEB-INF/view/notice/inc/header.jsp" />
+		<put-attribute name="main" value="/WEB-INF/view/notice/{1}.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/view/notice/inc/footer.jsp" />
+	</definition>
+	
+	<definition name="jobintroduction.*" template="/WEB-INF/view/jobintroduction/inc/layout.jsp">
+		<put-attribute name="header" value="/WEB-INF/view/jobintroduction/inc/header.jsp" />
+		<put-attribute name="main" value="/WEB-INF/view/jobintroduction/{1}.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/view/jobintroduction/inc/footer.jsp" />
+	</definition>
+	
+	<definition name="hospital.*" template="/WEB-INF/view/hospital/inc/layout.jsp">
+		<put-attribute name="header" value="/WEB-INF/view/hospital/inc/header.jsp"/>
+		<put-attribute name="main" value="/WEB-INF/view/hospital/{1}.jsp"/>
+		<put-attribute name="footer" value="/WEB-INF/view/hospital/inc/footer.jsp"/>
+	</definition>
+	
+	<definition name="dogrecommend.*" template="/WEB-INF/view/dogrecommend/inc/layout.jsp">
+		<put-attribute name="header" value="/WEB-INF/view/dogrecommend/inc/header.jsp"/>
+		<put-attribute name="main" value="/WEB-INF/view/dogrecommend/{1}.jsp"/>
+		<put-attribute name="footer" value="/WEB-INF/view/dogrecommend/inc/footer.jsp"/>
+	</definition>
+	
+	<definition name="catrecommend.*" template="/WEB-INF/view/catrecommend/inc/layout.jsp">
+		<put-attribute name="header" value="/WEB-INF/view/catrecommend/inc/header.jsp"/>
+		<put-attribute name="main" value="/WEB-INF/view/catrecommend/{1}.jsp"/>
+		<put-attribute name="footer" value="/WEB-INF/view/catrecommend/inc/footer.jsp"/>
+	</definition>
+	
+	<definition name="hamsterrecommend.*" template="/WEB-INF/view/hamsterrecommend/inc/layout.jsp">
+		<put-attribute name="header" value="/WEB-INF/view/hamsterrecommend/inc/header.jsp"/>
+		<put-attribute name="main" value="/WEB-INF/view/hamsterrecommend/{1}.jsp"/>
+		<put-attribute name="footer" value="/WEB-INF/view/hamsterrecommend/inc/footer.jsp"/>
+	</definition>
+	
+	<definition name="gosumdochirecommend.*" template="/WEB-INF/view/gosumdochirecommend/inc/layout.jsp">
+		<put-attribute name="header" value="/WEB-INF/view/gosumdochirecommend/inc/header.jsp"/>
+		<put-attribute name="main" value="/WEB-INF/view/gosumdochirecommend/{1}.jsp"/>
+		<put-attribute name="footer" value="/WEB-INF/view/gosumdochirecommend/inc/footer.jsp"/>
+	</definition>
+	
+	<definition name="playground.*" template="/WEB-INF/view/playground/inc/layout.jsp">
+		<put-attribute name="header" value="/WEB-INF/view/playground/inc/header.jsp"/>
+		<put-attribute name="main" value="/WEB-INF/view/playground/{1}.jsp"/>
+		<put-attribute name="footer" value="/WEB-INF/view/playground/inc/footer.jsp"/>
+	</definition>
+	
+	<definition name="behaviorintention.*" template="/WEB-INF/view/behaviorintention/inc/layout.jsp">
+		<put-attribute name="header" value="/WEB-INF/view/behaviorintention/inc/header.jsp"/>
+		<put-attribute name="main" value="/WEB-INF/view/behaviorintention/{1}.jsp"/>
+		<put-attribute name="footer" value="/WEB-INF/view/behaviorintention/inc/footer.jsp"/>
+	</definition>
+	
+	<definition name="taboofood.*" template="/WEB-INF/view/taboofood/inc/layout.jsp">
+		<put-attribute name="header" value="/WEB-INF/view/taboofood/inc/header.jsp"/>
+		<put-attribute name="main" value="/WEB-INF/view/taboofood/{1}.jsp"/>
+		<put-attribute name="footer" value="/WEB-INF/view/taboofood/inc/footer.jsp"/>
+	</definition>
+	
+	<definition name="actintention.*" template="/WEB-INF/view/actintention/inc/layout.jsp">
+		<put-attribute name="header" value="/WEB-INF/view/actintention/inc/header.jsp"/>
+		<put-attribute name="main" value="/WEB-INF/view/actintention/{1}.jsp"/>
+		<put-attribute name="footer" value="/WEB-INF/view/actintention/inc/footer.jsp"/>
+	</definition>
+	
+	<definition name="member.*" template="/WEB-INF/view/member/inc/layout.jsp">
+		<put-attribute name="header" value="/WEB-INF/view/member/inc/header.jsp"/>
+		<put-attribute name="main" value="/WEB-INF/view/member/{1}.jsp"/>
+		<put-attribute name="footer" value="/WEB-INF/view/member/inc/footer.jsp"/>
+	</definition>
+	
+</tiles-definitions>	

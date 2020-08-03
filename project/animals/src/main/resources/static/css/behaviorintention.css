@@ -1,0 +1,128 @@
+@charset "UTF-8";
+
+/* 강아지 행동별 의미 페이지 css */
+
+*{
+	font-family: sans-serif;
+	font-weight: bold;
+	background-color: #6BE0D2;
+}
+
+header.head{
+	display: flex;
+	margin-left: 1350px;
+	margin-bottom: 180px;
+}
+
+
+h2{
+	text-align:center;
+	margin-left: 70px;
+	margin-bottom: 80px;
+}
+
+h2.main.title{
+	width:1940px;
+}
+
+
+h3.hidden{
+	display: none;
+}
+
+legend.hidden{
+	display: none;
+}
+
+select{
+	border: 2px solid black;
+}
+
+label.hidden{
+	border: 2px solid black;
+}
+
+input{
+	border: 2px solid black;
+}
+
+fieldset{
+	width:330px;
+	margin-left: 840px;
+	border: 2px solid black;
+}
+
+table.table{
+	border: 2px solid black;
+}
+
+th{
+	border: 2px solid black;
+}
+
+td{
+	border: 2px solid black;
+}
+
+div.notice.margin-top{
+	width: 1000px;
+	margin-top: 50px;
+	margin-left: 770px;
+}
+
+td.text-align-title{
+	width:615px;
+	height: 66px;
+}
+
+ul{
+	list-style-type: none;	
+}
+
+div.paging .-list- li{
+	
+	margin: 10px;
+
+}
+
+.paging{
+	display:flex;
+	width:1000px;
+	margin-left: 520px;
+	justify-content:center;
+}
+
+.paging .-list-{
+	display: flex;
+	line-height: 40px;
+}
+
+.paging .-list- li{
+	line-height: 19px;
+}
+
+h4{
+	width:1000px;
+	margin-left: 620px;
+	font-size: 20px; 
+}
+
+/* 강아지 행동별 의미 자세한 페이지 css */
+
+a{
+	text-decoration: none;
+	font-weight: bold;
+	color:black;
+}
+
+div.margin-top.first{
+	width:1000px;
+	margin-top: 250px;
+	margin-left: 615px;
+	margin-bottom: 20px;
+}
+
+div.margin-top.text-align-center{
+	margin-left: 1340px;
+	margin-bottom: 200px;
+}

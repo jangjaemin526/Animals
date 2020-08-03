@@ -1,0 +1,149 @@
+@charset "UTF-8";
+
+/* 반려동물 직업소개 리스트 css */
+
+*{
+	font-family: sans-serif;
+	font-weight: bold;
+	background-color: #6BE0D2;
+}
+
+header.head{
+	display: flex;
+	margin-left: 1650px;
+	margin-bottom: 120px;
+}
+
+
+h2{
+	width:1100px;
+	margin-left: 965px;
+}
+
+h3{
+	display: none;
+}
+
+form.table-form{
+	margin-top: 60px;
+}
+
+fieldset{
+	width:330px;
+	margin-left: 850px;
+	margin-right: 650px;
+	margin-bottom: 100px;	 
+	background-color:green;
+	border: 2px solid;
+}
+
+select{
+	border: 2px solid black;
+}
+
+label.hidden{
+	border: 2px solid black;
+}
+
+insert{
+	border: 2px solid black;
+	
+}
+input{
+	border: 2px solid black;
+}
+
+div.notice.margin-top{
+	width: 1920px;
+	margin-left: 590px;
+}
+
+
+a{
+	text-decoration: none;
+	font-weight: bold;
+	color:black;
+}
+
+table.table{
+	margin-left: 135px;
+	margin-right: 130px;
+	border: 2px solid;
+	background-color: skyblue; 
+}
+
+legend.hidden{
+	
+	display: none;
+}
+
+
+div.margin-top.align-center.pager{
+	text-align:center;
+	display: flex;
+	margin-left: 890px;
+	margin-right: 20px;
+}
+ul.-list-.center{
+	width:1100px;
+	margin-left: 880px;
+	list-style-type: none;
+	display: flex;
+}
+
+li{
+	margin-left: 3px;	
+	margin-right: 16px;
+}
+
+
+
+h4{
+	width:1600px;
+}
+
+
+/* 반려동물 직업소개 자세한 페이지 css */
+
+
+a{
+	text-decoration: none;
+}
+
+h2.main.title{
+	margin-top: 100px;
+}
+
+div.margin-top.first{
+	text-align:center;
+	width:1330px;
+	margin-top: 200px;
+	margin-left: 480px;
+	
+}
+
+table.table{
+	margin-right: 300px;
+}
+
+th{
+	border: 2px solid black;
+	
+}
+
+td{
+	
+	border: 2px solid black;
+}
+
+div.margin-top.text-align-center{
+	width:1000px;
+	margin-top: 15px;
+	margin-left: 1478px;
+}
+
+h4{
+	text-align: center;
+	margin-top: 200px;
+	margin-left: 220px;	
+}

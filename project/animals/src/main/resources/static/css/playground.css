@@ -1,0 +1,157 @@
+@charset "UTF-8";
+
+/* 반려견놀이터 리스트 css*/
+
+*{
+	font-family: sans-serif;
+	font-weight: bold;
+	background-color: #6BE0D2;
+}
+
+header.head{
+	display:flex;
+	margin-left: 1480px;
+	margin-bottom: 50px;
+}
+
+h2{
+	width:210px;
+	margin-left: 1000px;
+}
+
+
+h3.hidden{
+	display: none;
+}
+
+legend.hidden{
+	display: none;
+}
+
+
+fieldset{
+	border: 2px solid black;
+	width: 380px;
+	margin-top: 150px;
+	margin-left: 855px;
+	margin-right: 720px;
+	background-color: green;
+}
+
+select{
+	
+	border: 2px solid black;
+}
+
+input{
+	border: 2px solid black;
+}
+
+label.hidden{
+	border: 2px solid black;
+}
+
+table.table{
+	border: 2px solid black;
+}
+
+th.w60{
+	border: 2px solid black;
+}
+
+th.expand{
+	border: 2px solid black;
+}
+
+th.w600{
+	border: 2px solid black;
+}
+
+td{
+	border: 2px solid black;
+}
+
+div.notice.margin-top{
+	width:1200px; 
+	margin-top: 100px;
+	margin-left: 520px; 
+}
+
+a{
+	text-decoration: none;
+	font-weight: bold;
+	color:black;
+}
+
+ul{
+	list-style-type: none;	
+}
+
+div.paging .-list- li{
+	
+	margin: 10px;
+
+}
+
+.paging{
+	display:flex;
+	width:1000px;
+	margin-left: 570px;
+	justify-content:center;
+}
+
+.paging .-list-{
+	display: flex;
+	line-height: 40px;
+}
+.paging .-list- li{
+	line-height: 19px;
+}
+
+h4{
+	width:1000px;
+	margin-top: 90px;
+	margin-left:685px;
+	font-size:20px;
+}
+
+/*반려견놀이터 자세한페이지 css*/
+
+a{
+	text-decoration: none;
+}
+
+h3.main.title{
+	width:1000px;
+	margin-left: 1000px;
+	margin-bottom: 100px;
+}
+
+
+th{
+	border: 2px solid black;
+}
+
+div.margin-top.first{
+	border: 2px solid black;
+	width:1000px;
+	margin-bottom: 30px;
+	margin-left: 540px;
+	margin-right: 710px;
+}
+
+div.margin-top.text-align-center{
+	width:1000px;
+	margin-left: 1500px;
+	margin-top: 30px;
+}
+
+
+a.btn-text.btn-cancel{
+	width:1000px;
+	margin-left: 1350px;
+}
+
+td.text-align-left-ident.next-strong.text-orange{
+	text-align: center;
+}
